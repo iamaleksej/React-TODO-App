@@ -1,0 +1,21 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper h1{
+  font-size: 30px;
+  font-weight: 600;
+}
+.app-header input{
+  width: 50%;
+  height: 40px;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  padding-left: 15px;
+  transition: all 0.3s ease;
+}
+.app-header input:focus{
+  border-color: #8E49E8;
+}
